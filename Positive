@@ -1,0 +1,76 @@
+Reliability analysis   
+Call: alpha(x = data1p)
+
+  raw_alpha std.alpha G6(smc) average_r S/N  ase mean   sd median_r
+      0.71      0.67    0.74      0.11   2 0.11 0.73 0.19      0.1
+
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.42  0.71  0.90
+Duhachek  0.50  0.71  0.92
+
+ Reliability if an item is dropped:
+      raw_alpha std.alpha G6(smc) average_r S/N var.r med.r
+Pos01      0.64      0.59    0.80     0.082 1.4 0.090 0.064
+Pos02      0.68      0.64    0.74     0.099 1.8 0.089 0.101
+Pos03      0.71      0.67    0.76     0.112 2.0 0.092 0.101
+Pos04      0.74      0.70    0.95     0.130 2.4 0.093 0.141
+Pos05      0.71      0.67    0.79     0.113 2.0 0.095 0.121
+Pos06      0.72      0.68    0.75     0.116 2.1 0.089 0.101
+Pos07      0.72      0.68    0.75     0.116 2.1 0.089 0.101
+Pos08      0.70      0.65    0.77     0.104 1.9 0.092 0.101
+Pos09      0.71      0.66    0.77     0.109 2.0 0.096 0.101
+Pos10      0.74      0.73    0.76     0.146 2.7 0.091 0.158
+Pos11      0.70      0.66    0.79     0.107 1.9 0.088 0.101
+Pos12      0.65      0.61    0.72     0.091 1.6 0.088 0.101
+Pos13      0.70      0.65    0.84     0.105 1.9 0.099 0.101
+Pos14      0.67      0.61    0.72     0.091 1.6 0.088 0.101
+Pos15      0.72      0.68    0.79     0.119 2.2 0.097 0.121
+Pos16      0.65      0.61    0.72     0.091 1.6 0.088 0.101
+Pos17      0.68      0.63    0.74     0.097 1.7 0.096 0.101
+
+ Item statistics 
+       n  raw.r   std.r  r.cor r.drop mean   sd
+Pos01 13  0.856  0.8503  0.956  0.805 0.69 0.48
+Pos02 13  0.580  0.5555  0.511  0.465 0.69 0.48
+Pos03 13  0.266  0.3182  0.236  0.150 0.85 0.38
+Pos04 13 -0.016  0.0056 -0.055 -0.134 0.85 0.38
+Pos05 13  0.362  0.3059  0.284  0.211 0.62 0.51
+Pos06 13  0.195  0.2473  0.117  0.077 0.85 0.38
+Pos07 13  0.195  0.2473  0.117  0.077 0.85 0.38
+Pos08 13  0.418  0.4586  0.442  0.342 0.92 0.28
+Pos09 13  0.360  0.3764  0.343  0.217 0.69 0.48
+Pos10 13 -0.345 -0.2846 -0.424 -0.419 0.92 0.28
+Pos11 13  0.466  0.4081  0.391  0.326 0.62 0.51
+Pos12 13  0.749  0.6989  0.642  0.661 0.46 0.52
+Pos13 13  0.415  0.4419  0.418  0.277 0.69 0.48
+Pos14 13  0.688  0.6951  0.638  0.617 0.85 0.38
+Pos15 13  0.257  0.1986  0.081  0.099 0.62 0.51
+Pos16 13  0.749  0.6989  0.642  0.661 0.46 0.52
+Pos17 13  0.552  0.5777  0.501  0.444 0.77 0.44
+
+Non missing response frequency for each item
+         0    1 miss
+Pos01 0.31 0.69    0
+Pos02 0.31 0.69    0
+Pos03 0.15 0.85    0
+Pos04 0.15 0.85    0
+Pos05 0.38 0.62    0
+Pos06 0.15 0.85    0
+Pos07 0.15 0.85    0
+Pos08 0.08 0.92    0
+Pos09 0.31 0.69    0
+Pos10 0.08 0.92    0
+Pos11 0.38 0.62    0
+Pos12 0.54 0.46    0
+Pos13 0.31 0.69    0
+Pos14 0.15 0.85    0
+Pos15 0.38 0.62    0
+Pos16 0.54 0.46    0
+Pos17 0.23 0.77    0
+Warning messages:
+1: In cor.smooth(r) : Matrix was not positive definite, smoothing was done
+2: In alpha(data1p) :
+  Some items were negatively correlated with the first principal component and probably 
+should be reversed.  
+To do this, run the function again with the 'check.keys=TRUE' option
